@@ -1,0 +1,12 @@
+<beans>
+    <bean name="Employee">
+        <attributes name="name" type="String"/>
+        <attributes name="id" type="int"/>
+        <attributes name="age" type="int"/>
+        <attributes name="section" type="String"/>
+    </bean>
+    <bean name="Section">
+        <attributes name="name" type="String"/>
+        <attributes name="id" type= "int"/>
+    </bean>
+</beans>

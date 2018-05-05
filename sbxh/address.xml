@@ -1,0 +1,20 @@
+<addressbook>
+    <address>
+        <name initial = "M">松本行弘</name>
+        <zipcode>699-0201</zipcode>
+        <address>松江市玉汤町玉造</address>
+        <tel>0852-62-XXXX</tel>
+    </address>
+    <address>
+        <name initial = "N">网络应用通信研究所</name>
+        <zipcode>690-0826</zipcode>
+        <address>松江市学园南2-12-5</address>
+        <tel>0852-28-XXXX</tel>
+    </address>
+    <address>
+        <name initial = "R">乐天</name>
+        <zipcode>140-0002</zipcode>
+        <address>品川区东品川4-12-3</address>
+        <tel>03-0387-XXXX</tel>
+    </address>
+</addressbook>
