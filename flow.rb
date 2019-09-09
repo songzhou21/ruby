@@ -42,6 +42,14 @@ while i < 5
     i += 1 
 end
 
+puts "loop"
+i = 0
+loop do
+    i += 1
+    puts i
+    break if i == 1
+end
+
 puts "---until---"
 i = 0
 until i == 5

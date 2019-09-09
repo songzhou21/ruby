@@ -24,6 +24,8 @@ puts "\n"
 puts days_of_week[1...3]
 puts "\n"
 puts days_of_week.slice(1..3)
+puts "\n"
+puts days_of_week[1..-1]
 
 concat_array = [1, 2]
 puts "concat1:"
