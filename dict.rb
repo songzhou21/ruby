@@ -13,3 +13,9 @@ end
 
 puts "count"
 puts H.keys.count
+
+puts H["a"]
+
+puts "hash with initial value:"
+dict_init = Hash.new(0)
+puts dict_init["not_exist"]
