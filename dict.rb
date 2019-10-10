@@ -17,5 +17,15 @@ puts H.keys.count
 puts H["a"]
 
 puts "hash with initial value:"
-dict_init = Hash.new(0)
-puts dict_init["not_exist"]
+hash = Hash.new(0)
+puts hash["not_exist"]
+
+hash[:key] = 1
+hash["key"] = 2
+puts hash
+hash.delete(:key)
+puts hash
+hash.delete("key")
+puts hash
+
+
